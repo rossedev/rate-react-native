@@ -38,14 +38,14 @@ const RepositoryItem = (props) => {
 const styles = StyleSheet.create({
   cotainer: {
     padding: 20,
-    paddingBottom: 5,
-    paddingTop: 5,
+    paddingVertical: 5,
   },
   language: {
     color: theme.colors.white,
     padding: 4,
     backgroundColor: theme.colors.primary,
     alignSelf: "flex-start",
+    marginVertical: 4,
     borderRadius: 4,
     overflow: "hidden",
   },
